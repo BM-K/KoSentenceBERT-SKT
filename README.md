@@ -1,7 +1,9 @@
 # Ko-Sentence-BERT-SKTBERT
 
-https://github.com/BM-K/KoSentenceBERT <- 레파지토리의 ETRI KoBERT의 학습된 파일을 공개하지 못하기에 <br>
-https://github.com/SKTBrain/KoBERT 를 이용하여 KoSentenceBERT 학습하였습니다.
+- 다음 레파지토리의 ETRI KoBERT의 학습된 파일을 공개하지 못함 <br>
+          - https://github.com/BM-K/KoSentenceBERT
+- SKT KoBERT 사용 학습 <br>
+          - https://github.com/SKTBrain/KoBERT
 
 ## Installation
 **huggingface transformer, sentence transformers, tokenizers** 라이브러리 코드를 직접 수정하므로 가상환경 사용을 권장합니다.  <br>
