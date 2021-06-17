@@ -44,7 +44,8 @@ python con_training_sts.py  # NLI 데이터로 학습 후 STS 데이터로 Fine-
 <br>
 <img src='https://user-images.githubusercontent.com/55969260/101112870-9cf42a00-3621-11eb-9bc0-788ba08638e1.png'><br>
 각 폴더에 있는 result파일을 output 디렉토리에 넣으시면 됩니다. <br>
-ex) sts 학습 파일 사용시 위 드라이브에서 sts/result.pt 파일을 output/training_sts/0_Transformer에 넣으시면 됩니다.
+ex) sts 학습 파일 사용시 위 드라이브에서 sts/result.pt 파일을 output/training_sts/0_Transformer에 넣으시면 됩니다. <br>
+output/training_sts/0_Transformer/result.pt <br>
 
 ## Performance
 Seed 고정, test set
