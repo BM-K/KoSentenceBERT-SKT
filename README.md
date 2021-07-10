@@ -6,8 +6,8 @@
           - https://github.com/SKTBrain/KoBERT
 
 ## Installation
-**huggingface transformer, sentence transformers, tokenizers** 라이브러리 코드를 직접 수정하므로 가상환경 사용을 권장합니다.  <br>
-사용한 Docker image는 Docker Hub에 첨부합니다. https://hub.docker.com/r/klbm126/kosbert_image/tags <br>
+- **huggingface transformer, sentence transformers, tokenizers** 라이브러리 코드를 직접 수정하므로 가상환경 사용을 권장합니다.  <br>
+- 사용한 Docker image는 Docker Hub에 첨부합니다. https://hub.docker.com/r/klbm126/kosbert_image/tags <br>
 
 ```
 git clone https://github.com/SKTBrain/KoBERT.git
@@ -18,13 +18,13 @@ cd ..
 git clone https://github.com/BM-K/KoSentenceBERT_SKTBERT.git
 pip install -r requirements.txt
 ```
-transformer, tokenizers, sentence_transformers 디렉토리를 opt/conda/lib/python3.7/site-packages/ 로 이동합니다. <br>
+ - transformer, tokenizers, sentence_transformers 디렉토리를 opt/conda/lib/python3.7/site-packages/ 로 이동합니다. <br>
 
 ## Train Models
-모델 학습을 원하시면 KoSentenceBERT 디렉토리 안에 KorNLUDatasets이 존재하여야 합니다. <br>
-저는 STS를 학습할 때에 모델 구조에 맞게 STS데이터를 수정하여 사용하였고 데이터와 학습 방법은 아래와 같습니다 : <br><br>
+ - 모델 학습을 원하시면 KoSentenceBERT 디렉토리 안에 KorNLUDatasets이 존재하여야 합니다. <br>
+ - STS를 학습 시 모델 구조에 맞게 데이터를 수정하였으며, 데이터와 학습 방법은 아래와 같습니다 : <br><br>
 KoSentenceBERT/KorNLUDatates/KorSTS/tune_test.tsv <br>
-<img src="https://user-images.githubusercontent.com/55969260/93304207-97afec00-f837-11ea-88a2-7256f2f1664e.png"></img>
+<img src="https://user-images.githubusercontent.com/55969260/93304207-97afec00-f837-11ea-88a2-7256f2f1664e.png"></img><br>
 *STS test 데이터셋의 일부* <br>
 ```
 python training_nli.py      # NLI 데이터로만 학습
@@ -42,7 +42,7 @@ python con_training_sts.py  # NLI 데이터로 학습 후 STS 데이터로 Fine-
 <br>
 학습된 pt 파일은 다음 드라이브에 있습니다. <br>https://drive.google.com/drive/folders/1fLYRi7W6J3rxt-KdGALBXMUS2W4Re7II?usp=sharing 
 <br>
-<img src='https://user-images.githubusercontent.com/55969260/101112870-9cf42a00-3621-11eb-9bc0-788ba08638e1.png'><br>
+<img src='https://user-images.githubusercontent.com/55969260/101112870-9cf42a00-3621-11eb-9bc0-788ba08638e1.png'>
 각 폴더에 있는 result파일을 output 디렉토리에 넣으시면 됩니다. <br>
 ex) sts 학습 파일 사용시 위 드라이브에서 sts/result.pt 파일을 output/training_sts/0_Transformer에 넣으시면 됩니다. <br>
 output/training_sts/0_Transformer/result.pt <br>
@@ -56,8 +56,8 @@ Seed 고정, test set
 |STS + NLI|78.81|78.47|77.68|**77.78**|77.71|**77.83**|75.75|75.22|
 
 ## Application Examples
-생성 된 문장 임베딩을 다운 스트림 애플리케이션에 사용할 수 있는 방법에 대한 몇 가지 예를 제시합니다.
-<br> 제일 높은 성능을 내는 STS pretrained 모델을 통해 진행합니다.
+ - 생성 된 문장 임베딩을 다운 스트림 애플리케이션에 사용할 수 있는 방법에 대한 몇 가지 예를 제시합니다.
+ - STS pretrained 모델을 통해 진행합니다.
 
 ### Semantic Search
 SemanticSearch.py는 주어진 문장과 유사한 문장을 찾는 작업입니다.<br>
