@@ -7,7 +7,8 @@
 
 ## Installation
 - **huggingface transformer, sentence transformers, tokenizers** 라이브러리 코드를 직접 수정하므로 가상환경 사용을 권장합니다.  <br>
-- 사용한 Docker image는 Docker Hub에 첨부합니다. https://hub.docker.com/r/klbm126/kosbert_image/tags <br>
+- 사용한 Docker image는 Docker Hub에 첨부합니다. <br>
+    - https://hub.docker.com/r/klbm126/kosbert_image/tags <br>
 
 ```
 git clone https://github.com/SKTBrain/KoBERT.git
