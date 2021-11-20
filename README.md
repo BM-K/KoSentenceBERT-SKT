@@ -53,7 +53,7 @@ Seed 고정, test set
 |Model|Cosine Pearson|Cosine Spearman|Euclidean Pearson|Euclidean Spearman|Manhattan Pearson|Manhattan Spearman|Dot Pearson|Dot Spearman|
 |:------------------------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |NLl|65.05|68.48|68.81|68.18|68.90|68.20|65.22|66.81|
-|STS|**80.42**|**79.64**|**77.93**|77.43|**77.92**|77.44|76.56|75.83|
+|STS|**80.42**|**79.64**|**77.93**|77.43|**77.92**|77.44|**76.56**|**75.83**|
 |STS + NLI|78.81|78.47|77.68|**77.78**|77.71|**77.83**|75.75|75.22|
 
 ## Application Examples
