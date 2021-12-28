@@ -49,12 +49,15 @@ ex) sts 학습 파일 사용시 위 드라이브에서 sts/result.pt 파일을 o
 output/training_sts/0_Transformer/result.pt <br>
 
 ## Performance
-Seed 고정, test set
+- Seed 고정, test set
+
 |Model|Cosine Pearson|Cosine Spearman|Euclidean Pearson|Euclidean Spearman|Manhattan Pearson|Manhattan Spearman|Dot Pearson|Dot Spearman|
 |:------------------------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |NLl|65.05|68.48|68.81|68.18|68.90|68.20|65.22|66.81|
 |STS|**80.42**|**79.64**|**77.93**|77.43|**77.92**|77.44|**76.56**|**75.83**|
 |STS + NLI|78.81|78.47|77.68|**77.78**|77.71|**77.83**|75.75|75.22|
+
+- Performance comparison with other models https://github.com/BM-K/Sentence-Embedding-is-all-you-need#performance .
 
 ## Application Examples
  - 생성 된 문장 임베딩을 다운 스트림 애플리케이션에 사용할 수 있는 방법에 대한 몇 가지 예를 제시합니다.
