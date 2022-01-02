@@ -40,8 +40,9 @@ python con_training_sts.py  # NLI 데이터로 학습 후 STS 데이터로 Fine-
 |training_**nli**|Only Train NLI|
 |training_**sts**|Only Train STS|
 |training_**nli_sts**|STS + NLI|
-<br>
-학습된 pt 파일은 다음 드라이브에 있습니다. [[Google Drive Sharing]](https://drive.google.com/drive/folders/1fLYRi7W6J3rxt-KdGALBXMUS2W4Re7II?usp=sharing)
+
+학습된 pt 파일은 다음 드라이브에 있습니다. <br>
+[[Google Drive Sharing]](https://drive.google.com/drive/folders/1fLYRi7W6J3rxt-KdGALBXMUS2W4Re7II?usp=sharing)<br>
 <br>
 <img src='https://user-images.githubusercontent.com/55969260/101112870-9cf42a00-3621-11eb-9bc0-788ba08638e1.png'>
 각 폴더에 있는 result파일을 output 디렉토리에 넣으시면 됩니다. <br>
