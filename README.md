@@ -57,7 +57,7 @@ output/training_sts/0_Transformer/result.pt <br>
 |STS|**80.42**|**79.64**|**77.93**|77.43|**77.92**|77.44|**76.56**|**75.83**|
 |STS + NLI|78.81|78.47|77.68|**77.78**|77.71|**77.83**|75.75|75.22|
 
-- Performance comparison with other models https://github.com/BM-K/Sentence-Embedding-is-all-you-need#performance .
+- Performance comparison with other models [[KLUE-PLMs]](https://github.com/BM-K/Sentence-Embedding-is-all-you-need#performance).
 
 ## Application Examples
  - 생성 된 문장 임베딩을 다운 스트림 애플리케이션에 사용할 수 있는 방법에 대한 몇 가지 예를 제시합니다.
