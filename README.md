@@ -1,7 +1,5 @@
 # Ko-Sentence-BERT-SKTBERT
 
-- 다음 레파지토리의 ETRI KoBERT의 학습된 파일을 공개하지 못함 <br>
-    - https://github.com/BM-K/KoSentenceBERT
 - SKT KoBERT 사용 학습 <br>
     - https://github.com/SKTBrain/KoBERT
 
