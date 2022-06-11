@@ -1,4 +1,6 @@
 # Ko-Sentence-BERT-SKTBERT
+> **Note** <br>
+> 다양한 문장 임베딩 모델 및 결과는 다음 링크를 참고해주세요. <br> [[Sentence-Embedding-Is-All-You-Need]](https://github.com/BM-K/Sentence-Embedding-Is-All-You-Need)
 
 - SKT KoBERT 사용 학습 <br>
     - https://github.com/SKTBrain/KoBERT
