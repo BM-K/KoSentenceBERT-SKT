@@ -1,9 +1,8 @@
 # Ko-Sentence-BERT-SKTBERT
+- SKT KoBERT를 사용하여 SentenceBERT 학습 <br>
+    - https://github.com/SKTBrain/KoBERT
 > **Note** <br>
 > 다양한 문장 임베딩 모델 및 결과는 다음 링크를 참고해주세요. <br> [[Sentence-Embedding-Is-All-You-Need]](https://github.com/BM-K/Sentence-Embedding-Is-All-You-Need)
-
-- SKT KoBERT 사용 학습 <br>
-    - https://github.com/SKTBrain/KoBERT
 
 ## Installation
 - **huggingface transformer, sentence transformers, tokenizers** 라이브러리 코드를 직접 수정하므로 가상환경 사용을 권장합니다.  <br>
