@@ -212,7 +212,6 @@ Cluster  4
 
 Cluster  5
 ['한 여자가 바이올린을 연주한다.']
-
 ```
 
 ## Citing
