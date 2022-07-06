@@ -243,4 +243,3 @@ Cluster  5
 
 ## Reference Repo
 - [SKT KoBERT](https://github.com/SKTBrain/KoBERT)
-- [SBERT](https://github.com/UKPLab/sentence-transformers)
